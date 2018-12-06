@@ -1,0 +1,2 @@
+/usr/local/src/antsbin/bin/antsRegistration -d 2 -v --transform 'Rigid[0.1]' --metric 'MeanSquares[fixed0.nrrd,moving0.nrrd,1.0]' --convergence '[1000,1.0e-6,10]' --shrink-factors 1 --smoothing-sigmas 25vox --output '[warped0_warp,warped0.nrrd]'
+/usr/local/src/antsbin/bin/antsRegistration -d 2 -v --transform 'Rigid[0.1]' --metric 'MeanSquares[fixed1.nrrd,moving1.nrrd,1.0]' --convergence '[1000,1.0e-6,10]' --shrink-factors 1 --smoothing-sigmas 25vox --output '[warped1_warp,warped1.nrrd]'
